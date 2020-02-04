@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Employee.RESTful.API</name>
+    </assembly>
+    <members>
+        <member name="M:Employee.RESTful.API.Controllers.EmployeesController.Get_EmployeeForEdit(System.Int32)">
+            <summary>
+            Get an employee by her/his Id
+            </summary>
+            <param name="id">The id of the employee you want to get</param>
+            <returns>An employee with first name, last name and hire date</returns>
+            <remarks>
+            Sample request (this request query employee for edit)\
+            PATH /api/employee/\
+            [\
+               id: 1\
+            ]
+            </remarks>
+        </member>
+    </members>
+</doc>

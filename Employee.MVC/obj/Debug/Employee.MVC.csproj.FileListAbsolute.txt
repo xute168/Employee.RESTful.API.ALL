@@ -81,3 +81,4 @@ D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.MVC\bin\ro
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.MVC\bin\roslyn\System.IO.FileSystem.dll
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.MVC\obj\Debug\Employee.MVC.csprojAssemblyReference.cache

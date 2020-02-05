@@ -72,6 +72,8 @@ namespace Employee.RESTful.API
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "ERP API V1");
                 options.RoutePrefix = "";
+                options.EnableDeepLinking();
+                options.DisplayOperationId();
                
             });
             app.UseStaticFiles();

@@ -11,5 +11,4 @@ d:\users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.AP
 d:\users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.API\obj\Debug\netcoreapp2.1\Employee.RESTful.API.RazorTargetAssemblyInfo.cache
 d:\users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.API\obj\Debug\netcoreapp2.1\Employee.RESTful.API.dll
 d:\users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.API\obj\Debug\netcoreapp2.1\Employee.RESTful.API.pdb
-D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.API\obj\Debug\netcoreapp2.1\Employee.RESTful.API.csprojAssemblyReference.cache
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.RESTful.API\bin\Debug\netcoreapp2.1\Employee.RESTful.API.xml

@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 using System.Web;
 using Employee.Core.Models;
 
+
 namespace Employee.Core.SeviceProxies
 {
-    public class EmployeeServiceProxy
+    public class EmployeeServiceProxy:IEmployeeServiceProxy
     {
         // GET: Employee
         private readonly string Baseurl = "http://localhost:1253/";

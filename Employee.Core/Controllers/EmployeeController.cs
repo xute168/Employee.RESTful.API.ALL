@@ -14,12 +14,12 @@ namespace Employee.Core.Controllers
     {
         // GET: Employee
 
-        private readonly EmployeeServiceProxy _employeeServiceProxy;
+        private readonly IEmployeeServiceProxy _employeeServiceProxy;
         private readonly EmployeeTaskServiceProxy _employeeTaskServiceProxy;
 
-        public EmployeeController()
+        public EmployeeController(IEmployeeServiceProxy employeeServiceProxy)
         {
-            _employeeServiceProxy = new EmployeeServiceProxy();
+            _employeeServiceProxy = employeeServiceProxy;
             _employeeTaskServiceProxy = new EmployeeTaskServiceProxy();
         }
 

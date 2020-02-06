@@ -33,3 +33,4 @@ D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.Core\obj\D
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.Core\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Details.g.cshtml.cs
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.Core\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Edit.g.cshtml.cs
 D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.Core\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Index.g.cshtml.cs
+D:\Users\mxu@aocit.com\source\repos\Employee.RESTful.API.ALL\Employee.Core\obj\Debug\netcoreapp2.1\Employee.Core.csprojAssemblyReference.cache

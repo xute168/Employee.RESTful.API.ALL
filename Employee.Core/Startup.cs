@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Employee.Core.Models;
 
 namespace Employee.Core
 {
@@ -31,8 +32,9 @@ namespace Employee.Core
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            
             services.AddTransient<IEmployeeServiceProxy, EmployeeServiceProxy>();
+            services.Configure<AppSettingsJsonDto>(Configuration.GetSection("App"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

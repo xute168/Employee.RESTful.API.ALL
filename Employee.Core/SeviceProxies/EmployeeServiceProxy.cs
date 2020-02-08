@@ -7,14 +7,19 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web;
 using Employee.Core.Models;
-
+using Microsoft.Extensions.Options;
 
 namespace Employee.Core.SeviceProxies
 {
     public class EmployeeServiceProxy:IEmployeeServiceProxy
     {
         // GET: Employee
-        private readonly string Baseurl = "http://localhost:1253/";
+        //private readonly string Baseurl = "http://localhost:1253/";
+        private readonly string _Baseurl;
+        public EmployeeServiceProxy(IOptions<AppSettingsJsonDto> AppSetting)
+        {
+            _Baseurl = AppSetting.Value.ServerRootAddress;
+        }
 
         public async Task<List<Employee.Core.Models.Employee>> GetAll()
         {
@@ -23,7 +28,7 @@ namespace Employee.Core.SeviceProxies
             using (var client = new HttpClient())
             {
                 //Passing service base url  
-                client.BaseAddress = new Uri(Baseurl);
+                client.BaseAddress = new Uri(_Baseurl);
 
                 client.DefaultRequestHeaders.Clear();
                 //Define request data format  
@@ -55,7 +60,7 @@ namespace Employee.Core.SeviceProxies
             using (var client = new HttpClient())
             {
                 //Passing service base url  
-                client.BaseAddress = new Uri(Baseurl);
+                client.BaseAddress = new Uri(_Baseurl);
 
                 client.DefaultRequestHeaders.Clear();
                 //Define request data format  
@@ -87,7 +92,7 @@ namespace Employee.Core.SeviceProxies
             using (var client = new HttpClient())
             {
                 //Passing service base url  
-                client.BaseAddress = new Uri(Baseurl);
+                client.BaseAddress = new Uri(_Baseurl);
 
                 client.DefaultRequestHeaders.Clear();
                 //Define request data format  
@@ -119,7 +124,7 @@ namespace Employee.Core.SeviceProxies
             using (var client = new HttpClient())
             {
                 //Passing service base url  
-                client.BaseAddress = new Uri(Baseurl);
+                client.BaseAddress = new Uri(_Baseurl);
 
                 client.DefaultRequestHeaders.Clear();
                 //Define request data format  
